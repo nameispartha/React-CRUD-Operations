@@ -85,7 +85,7 @@ npx json-server --watch db.json --port 3001
 ### 👨‍💻 **Author**:
 
 **Partha Sarathi** – React Frontend Developer
-🌐 [LinkedIn](https://linkedin.com/in/your-link) | 💻 [GitHub](https://github.com/nameispartha)
+🌐 [LinkedIn]( https://www.linkedin.com/in/parthasarathi-k-417102220/  ) | 💻 [GitHub](https://github.com/nameispartha)
 
 ---
 
