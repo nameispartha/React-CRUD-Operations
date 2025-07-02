@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "id": "3",
+      "name": "Mohit Verma",
+      "class": "12th",
+      "percentage": 76,
+      "status": "Pass"
+    },
+    {
+      "id": "5",
+      "name": "Sandeep Yadav",
+      "class": "10th",
+      "percentage": 33,
+      "status": "Fail"
+    },
+    {
+      "id": "0e83",
+      "name": "Ramesh",
+      "class": "BCA 2nd year",
+      "percentage": "68",
+      "status": "Pass"
+    },
+    {
+      "id": "840e",
+      "name": "Bharaghvi K",
+      "class": "10th",
+      "percentage": "33",
+      "status": "Fail"
+    }
+  ]
+}
