@@ -1,12 +1,93 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📘 **Student Management System (React CRUD Project)**
 
-## Expanding the ESLint configuration
+### 🛠️ Description:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is a **Student Management System** built using **React.js** that performs full **CRUD operations** — Create, Read, Update, and Delete — for managing student data. The project features a smooth user interface with a responsive layout, form validations, dynamic routing, and real-time data updates.
+
+---
+
+### 🚀 **Features**:
+
+* ➕ Add new students with class, percentage, and status
+* 📋 View a list of all students in a dynamic table
+* ✏️ Edit student details using dynamic routing and pre-filled forms
+* 🗑️ Delete students with confirmation alerts
+* ✅ Real-time UI updates after each operation
+* 💻 Clean, professional, and responsive UI with custom CSS
+
+---
+
+### 🧠 **Concepts & Technologies Used**:
+
+| Concept / Tool     | Purpose                                                     |
+| ------------------ | ----------------------------------------------------------- |
+| `React.js`         | For building reusable UI components and SPA                 |
+| `useState`         | To manage form inputs and student list                      |
+| `useEffect`        | To fetch data on component load                             |
+| `React Router DOM` | For navigating between pages and editing with dynamic `:id` |
+| `Axios`            | For making HTTP requests to the backend                     |
+| `JSON Server`      | Acts as a fake REST API for storing student data            |
+| `Custom CSS`       | For creating a clean, modern, and responsive layout         |
+
+---
+
+### 🗂️ **Folder Structure**:
+
+```
+React-CRUD-Operations/
+│
+├── /public
+├── /src
+│   ├── /Pages
+│   │   ├── Addstudents.jsx
+│   │   ├── Editstudents.jsx
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   └── App.css
+├── db.json          ← JSON Server data
+└── package.json
+```
+
+---
+
+### ⚙️ **How to Run This Project Locally**
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/nameispartha/React-CRUD-Operations.git
+cd React-CRUD-Operations
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the React App**
+
+```bash
+npm start
+```
+
+4. **Run JSON Server**
+
+```bash
+npx json-server --watch db.json --port 3001
+```
+
+
+### 👨‍💻 **Author**:
+
+**Partha Sarathi** – React Frontend Developer
+🌐 [LinkedIn](https://linkedin.com/in/your-link) | 💻 [GitHub](https://github.com/nameispartha)
+
+---
+
+
+
